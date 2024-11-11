@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 7801804018a7dcf42abb827444e18660, type: 3}
+  title: Agora VR
+  sections:
+  - heading: VR Therapy of Agoraphobia and Social Anxiety Disorders
+    text: ''
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Our project focuses on the treatment of social anxiety and social phobias by utilizing VR technology for psychological and cognitive therapy. The goal is to allow patients who suffer from Agoraphobia or related disorders such as Schizoid personality disorder (SPD) to be able to overcome their anxiety in a controlled manner within the comfort of their own environment. By gradually exposing the patient to different immersive and interactive environments, it is possible to reduce their anxiety over time.'
+    linkText: 
+    url: 
+  - heading: About Us
+    text: ''
+    linkText: 
+    url: 
+  - heading:
+    text: 'Members: Aryeh Ness, Daniel Nguyen, Ted Moseley, & Michael Truong'
+    linkText: 
+    url: 
+  - heading:
+    text: 'Rutgers University - New Brunswick, Electical and Computer Engineering Department'
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Capstone Design - Dr. Hana Godrich'
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Advisor: Dr. Grigore Burdea'
+    linkText: 
+    url: 
+  loadedLayout: 1
