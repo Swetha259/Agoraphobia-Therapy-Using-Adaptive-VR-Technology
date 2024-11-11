@@ -1,0 +1,27 @@
+#include <Wire.h>
+#include "MAX30105.h" // Adafruit's MAX30102 Library
+
+MAX30105 particleSensor;
+
+void setup() {
+  Serial.begin(9600); // Set baud rate for Serial communication with Unity
+  Wire.begin();
+
+  // Initialize the sensor
+  if (!particleSensor.begin(Wire, I2C_SPEED_FAST)) {
+    Serial.println("MAX30102 not found. Check wiring.");
+    while (1);
+  }
+
+  particleSensor.setup(); // Initialize sensor with default settings
+}
+
+void loop() {
+  float heartRate = particleSensor.getHeartRate(); // Assuming heart rate method
+
+  // Send heart rate data to Unity
+  if (heartRate > 0) {
+    Serial.println(heartRate); // Sends heart rate to Unity
+  }
+  delay(1000); // Adjust delay as needed for data frequency
+}
